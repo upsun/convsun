@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	APP_NAME = "upsun_convert"
+	APP_NAME = "convsun"
 
 	ARG_SRC = "src"
 	ARG_DST = "dst"
