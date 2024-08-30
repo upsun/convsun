@@ -1,8 +1,13 @@
 ConvSun
 =========
 
-This tool uses **Platform.sh** config files *(routes.yaml, services.yaml and .platform.app.yaml)* to generate the **Upsun** config file *(config.yaml)*  
+This CLI-tool uses **Platform.sh** config files *(routes.yaml, services.yaml and .platform.app.yaml(s)/applications.yaml)* to generate the **Upsun** config file *(config.yaml)*  
 > **WARNING : This tool handles classic 'multi-app...' cases but has not been tested for snowflack cases.**
+
+#### Install
+
+Download the last binary in [release section](https://github.com/upsun/convsun/releases).
+Extract it and enjoy !
 
 #### Syntax
 ```
