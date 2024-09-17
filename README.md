@@ -1,8 +1,5 @@
 > [!CAUTION]
-> # **This project is owned by the Upsun Advocacy team. It is in an early stage of development and only intended to be used by Upsun customers/community**  
-> # **This project is not supported by Upsun and does not qualify for Support plans. It's provided without guarantee or warranty !**
-> [!CAUTION]
->  
+> ## **This project is owned by the Upsun Advocacy team. It is in an early stage of development and only intended to be used by Upsun customers/community  This project is not supported by Upsun and does not qualify for Support plans. It's provided without guarantee or warranty !**
 
 ConvSun
 =========
