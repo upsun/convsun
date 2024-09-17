@@ -2,10 +2,10 @@ ConvSun
 =========
 
 <div style="background-color: #ffbbaa; color: red;">
+</div>
 > [!CAUTION]
 > **This project is owned by the Upsun Advocacy team. It is in an early stage of development and only intended to be used by Upsun customers, in close collaboration with its developers.**
 > <summary>This project is not supported by Upsun and does not qualify for Puppet Support plans. It's provided without guarantee or warranty and is intended for use when deployed by Puppet's Solutions Architects team.</summary>
-</div>  
 
 
 This CLI-tool uses **Platform.sh** config files *(routes.yaml, services.yaml and .platform.app.yaml(s)/applications.yaml)* to generate the **Upsun** config file *(config.yaml)*  
