@@ -47,6 +47,7 @@ func Convert(projectWorkspace string, outputFilePath string) {
 	// if entry.ValueNode != nil {
 	log.Println("Replace all mount type on " + entity.PSH_PLATFORM + "/" + entity.PSH_APPLICATION + "...")
 	readers.ReplaceAllEntry(&metamodel.Applications, "local", app.ArgsC.TypeMount)
+	readers.ReplaceAllEntry(&metamodel.Applications, "shared", app.ArgsC.TypeMount)
 	// }
 
 	// - Remove Disk
