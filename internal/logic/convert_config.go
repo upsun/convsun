@@ -51,7 +51,7 @@ func Convert(projectWorkspace string, outputFilePath string) {
 	// }
 
 	// - Remove Disk
-	log.Println("Upsun configuration files doesn't define 'disk' !!\n\tDisk is define into web console.\n\tFor more information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#available-disk-space")
+	log.Println("Upsun configuration files doesn't define 'disk' !!\n\tDisk is defined into web console.\n\tFor more information: https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html#available-disk-space")
 	log.Println("Remove all 'disk' on " + entity.PSH_SERVICE + "...")
 	readers.RemoveAllEntry(&metamodel.Services, "disk")
 	log.Println("Remove all 'disk' on " + entity.PSH_PLATFORM + "/" + entity.PSH_APPLICATION + "...")
@@ -68,7 +68,7 @@ func Convert(projectWorkspace string, outputFilePath string) {
 	// Generate Upsun config files
 	if utils.IsExist(absProjectDestinationConfig) {
 		absProjectDestinationConfig += ".new_convert"
-		log.Printf("WARNING: Upsun config file already exist. Generate new one on %v", absProjectDestinationConfig)
+		log.Printf("WARNING: Upsun config file already exists. Generate new one on %v", absProjectDestinationConfig)
 	}
 	writers.GenerateUpsunConfigFile(metamodel, absProjectDestinationConfig)
 
