@@ -24,4 +24,4 @@ Usage of convsun:
 ```
 
 #### Sample
-`$ upsun_convert --src=tests/convert"`
+`$ convsun --src=tests/convert"`
