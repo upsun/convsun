@@ -2,16 +2,11 @@ name: Build
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
   schedule:
   - cron: '0 10 * * 1' # run "At 10:00 on Monday"
 
 permissions:
   contents: read
-
-env:
-  GOPRIVATE: github.com/upsun/lib-sun,github.com/upsun/convsun
 
 jobs:
 
