@@ -2,6 +2,9 @@ name: Build
 
 on:
   push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
   schedule:
   - cron: '0 10 * * 1' # run "At 10:00 on Monday"
 
